@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9em;
+  font-weight: 400;
+  line-height: 1.8em;
+  letter-spacing: 0.8px;
+
+  &--submit {
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  &--submit:hover {
+    opacity: 0.6;
+  }
+}
+
+.form {
+  &__input {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: $dark-blue;
+  }
+
+  &__terms {
+    font-size: 0.7em;
+    color: $Grayish-blue;
+
+    &--highlight {
+      font-weight: 600;
+      color: $red;
+    }
+  }
+}
+
+.hero {
+  &__title {
+    line-height: 1.333em;
+    font-size: 1.7rem;
+  }
+
+  &__description {
+    font-weight: 400;
+    line-height: 1.6em;
+  }
+}
+
+@include screen-l {
+  .hero {
+    &__title {
+      font-size: 3rem;
+    }
+
+    &__description {
+      font-size: 0.9em;
+    }
+  }
+}
+
+@include screen-l {
+  body {
+    font-size: 18px;
+    text-align: left;
+  }
+}

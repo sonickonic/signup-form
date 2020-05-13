@@ -1,0 +1,26 @@
+.hero {
+  &__title {
+    width: 80%;
+    margin: auto;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+  }
+
+  &__description {
+    padding-bottom: 1em;
+  }
+}
+
+@include screen-l {
+  .hero {
+    &__title {
+      width: 100%;
+      padding-top: 0;
+    }
+
+    &__description {
+      width: 90%;
+      padding-bottom: 0;
+    }
+  }
+}

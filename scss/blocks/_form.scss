@@ -1,0 +1,28 @@
+.form {
+  background-color: white;
+  padding: 1.5em;
+  border-radius: 0.5em;
+  box-shadow: 0px 7px 0px 0px rgba(0, 0, 0, 0.15);
+
+  &__input {
+    border: 1px solid $Grayish-blue;
+    border-radius: 0.25em;
+    width: 100%;
+    padding: 1.2em;
+    margin-bottom: 1.25em;
+  }
+
+  &__terms {
+    padding: 0 1em;
+  }
+}
+
+@include screen-l {
+  .form {
+    padding: 2.5em;
+
+    &__terms {
+      text-align: center;
+    }
+  }
+}

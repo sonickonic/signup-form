@@ -1,0 +1,19 @@
+body {
+  position: relative;
+  background: url(../images/bg-intro-mobile.png) no-repeat center;
+  background-size: auto;
+  background-color: $red;
+  height: 100vh;
+}
+
+@include screen-s {
+  body {
+    background: url(../images/bg-intro-desktop.png) no-repeat center;
+    background-size: auto;
+    background-color: $red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

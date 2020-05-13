@@ -1,0 +1,12 @@
+.container {
+  width: 85%;
+  max-width: 40em;
+  margin: 3em auto;
+}
+
+@include screen-l {
+  .container {
+    max-width: 30em;
+    margin: 0;
+  }
+}
