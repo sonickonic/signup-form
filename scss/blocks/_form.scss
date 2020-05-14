@@ -12,6 +12,18 @@
     margin-bottom: 1.25em;
   }
 
+  &__input--error {
+    border: 1.5px solid $red;
+    background-image: url(../images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+  }
+
+  &__input-msg--error {
+    margin-top: -1em;
+    margin-bottom: 1.2em;
+  }
+
   &__terms {
     padding: 0 1em;
   }

@@ -35,6 +35,12 @@ body {
   font-weight: 700;
   color: #3e3c49;
 }
+.form__input-msg--error {
+  color: #ff7a7a;
+  font-size: 0.7em;
+  font-style: italic;
+  text-align: right;
+}
 .form__terms {
   font-size: 0.7em;
   color: #b9b6d3;
@@ -144,6 +150,16 @@ body {
   width: 100%;
   padding: 1.2em;
   margin-bottom: 1.25em;
+}
+.form__input--error {
+  border: 1.5px solid #ff7a7a;
+  background-image: url(../images/icon-error.svg);
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+}
+.form__input-msg--error {
+  margin-top: -1em;
+  margin-bottom: 1.2em;
 }
 .form__terms {
   padding: 0 1em;

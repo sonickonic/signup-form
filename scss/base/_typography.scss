@@ -32,6 +32,13 @@ body {
     color: $dark-blue;
   }
 
+  &__input-msg--error {
+    color: $red;
+    font-size: 0.7em;
+    font-style: italic;
+    text-align: right;
+  }
+
   &__terms {
     font-size: 0.7em;
     color: $Grayish-blue;
